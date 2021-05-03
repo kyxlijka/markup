@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<title>Japan Flag</title>
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	<style>
+		html, body {
+			margin: 0;
+			height: 100%;
+		}
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.flag {
+ 			width: 300px;
+ 			height: 200px;
+ 			border: 2px solid #b9b7b7;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.flag::before {
+			width: 120px;
+			height: 120px;
+			background-color: red;
+			border-radius: 50%;
+			content: "";
+		}
+	</style>
+	<div class="flag"></div>
+</body>
+</html>
